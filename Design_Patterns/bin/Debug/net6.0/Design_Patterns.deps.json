@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Design_Patterns/1.0.0": {
+        "dependencies": {
+          "Singleton": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "runtime": {
+          "Design_Patterns.dll": {}
+        }
+      },
+      "Singleton/1.0.0": {
+        "runtime": {
+          "Singleton.dll": {}
+        }
+      },
+      "Strategy/1.0.0": {
+        "runtime": {
+          "Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Design_Patterns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Singleton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
