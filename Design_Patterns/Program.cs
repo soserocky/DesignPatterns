@@ -1,4 +1,5 @@
-﻿using Decorator;
+﻿using Adapter;
+using Decorator;
 using Observer;
 using Singleton;
 using Strategy;
@@ -14,6 +15,8 @@ namespace Design_Patterns
             //StrategyDemo.Start();
             //ObserverDemo.Start();
             //DecoratorDemo.Start();
+            AdapterDemo.Start();
+
             Console.Read();
         }
     }

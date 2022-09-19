@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Observer/bin/Debug/net6.0
+/Observer/obj/Debug/net6.0
+/Observer/obj
+/Decorator/bin/Debug/net6.0
+/Singleton/obj/Debug/net6.0
+/Adapter/bin/Debug/net6.0
+/Adapter/obj/Debug/net6.0
+/Adapter/obj
+/Decorator/obj
+/Strategy/obj/Debug/net6.0
+/.vs/Design_Patterns/DesignTimeBuild
+/.vs/ProjectEvaluation
