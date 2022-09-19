@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns", "Design_Patterns\Design_Patterns.csproj", "{95F09C51-2E46-4C0E-AE97-FF03CF21BD4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design_Patterns", "Design_Patterns\Design_Patterns.csproj", "{95F09C51-2E46-4C0E-AE97-FF03CF21BD4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{A2BD1265-FEA1-4F8D-AEF9-3E8647430450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{A2BD1265-FEA1-4F8D-AEF9-3E8647430450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{0904C345-5608-498F-BB38-A69793FA69AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{0904C345-5608-498F-BB38-A69793FA69AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{F89C7552-CBFD-4ECC-AAC7-73A69C65B317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{95907904-5892-4FDB-9917-966EC09E16CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{0904C345-5608-498F-BB38-A69793FA69AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0904C345-5608-498F-BB38-A69793FA69AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0904C345-5608-498F-BB38-A69793FA69AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89C7552-CBFD-4ECC-AAC7-73A69C65B317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89C7552-CBFD-4ECC-AAC7-73A69C65B317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89C7552-CBFD-4ECC-AAC7-73A69C65B317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89C7552-CBFD-4ECC-AAC7-73A69C65B317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95907904-5892-4FDB-9917-966EC09E16CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95907904-5892-4FDB-9917-966EC09E16CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95907904-5892-4FDB-9917-966EC09E16CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95907904-5892-4FDB-9917-966EC09E16CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

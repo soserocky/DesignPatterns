@@ -1,4 +1,5 @@
-﻿using Observer;
+﻿using Decorator;
+using Observer;
 using Singleton;
 using Strategy;
 using System;
@@ -11,8 +12,8 @@ namespace Design_Patterns
         {
             //SingletonDemo.Start();
             //StrategyDemo.Start();
-            ObserverDemo.Start();
-
+            //ObserverDemo.Start();
+            //DecoratorDemo.Start();
             Console.Read();
         }
     }
