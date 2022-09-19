@@ -14,7 +14,7 @@ namespace Observer.Observers
 
         public void GetUpdate(WeatherComponent weatherComponent, NewsBroadcaster weatherAgency, string weatherComponentValue)
         {
-            Console.WriteLine($"{weatherComponent.ToString()} update from {_newsAgency.ToString()}: {weatherAgency.ToString()} reports a value of {weatherComponentValue}");
+            Console.WriteLine($"{weatherComponent.ToString()} update from {_newsAgency.ToString()} at {DateTime.Now}: {weatherAgency.ToString()} reports a value of {weatherComponentValue}");
         }
     }
 }
