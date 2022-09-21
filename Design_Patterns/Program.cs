@@ -15,7 +15,7 @@ namespace Design_Patterns
             //StrategyDemo.Start();
             //ObserverDemo.Start();
             //DecoratorDemo.Start();
-            AdapterDemo.Start();
+            //AdapterDemo.Start();
 
             Console.Read();
         }

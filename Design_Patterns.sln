@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{95907904-5892-4FDB-9917-966EC09E16CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7D13646F-3DAD-4A29-832F-5658AD35EA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{7D13646F-3DAD-4A29-832F-5658AD35EA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{9E117D17-56EF-4F1C-99C4-85654253A63B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7D13646F-3DAD-4A29-832F-5658AD35EA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D13646F-3DAD-4A29-832F-5658AD35EA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D13646F-3DAD-4A29-832F-5658AD35EA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E117D17-56EF-4F1C-99C4-85654253A63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E117D17-56EF-4F1C-99C4-85654253A63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E117D17-56EF-4F1C-99C4-85654253A63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E117D17-56EF-4F1C-99C4-85654253A63B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
