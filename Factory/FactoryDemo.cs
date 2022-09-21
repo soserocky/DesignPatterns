@@ -2,6 +2,9 @@
 {
     public class FactoryDemo
     {
-
+        public static void Start()
+        {
+            
+        }
     }
 }

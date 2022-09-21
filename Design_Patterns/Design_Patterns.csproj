@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\Factory\Factory.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
