@@ -1,4 +1,5 @@
-﻿using Adapter;
+﻿using AbstractFactory;
+using Adapter;
 using Decorator;
 using Factory;
 using Observer;
@@ -17,7 +18,9 @@ namespace Design_Patterns
             //ObserverDemo.Start();
             //DecoratorDemo.Start();
             //AdapterDemo.Start();
-            FactoryDemo.Start();
+            //FactoryDemo.Start();
+            AbstractFactoryDemo.Start();
+
             Console.Read();
         }
     }
