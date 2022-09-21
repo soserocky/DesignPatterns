@@ -8,9 +8,11 @@ namespace Factory
 {
     internal class PizzaStore
     {
-        internal static Pizza OrderPizza(string type)
+        internal Pizza OrderPizza(string type)
         {
             var pizza = PizzaFactory.CreatePizza(type);
+
+            if (pizza == null) return null;
 
             pizza.AddIngredients();
             pizza.Bake();
